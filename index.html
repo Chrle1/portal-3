@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <title>Charlie Khoy</title>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="css/portal.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  
+ </head>
+ <body>
+     <header>
+     <h1>Charlie Khoy</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="https://chrle1.github.io/Stylin-with-css/ " target="_blank">Stylin' With CSS</a>
+            <a href="https://github.com/Chrle1" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/charlie-khoy-353532184/" target="_blank">LinkedIn</a>
+            <a href="https://chrle1.github.io/daily-grind/" target="_blank">DailyGrind</a>
+            <a href="https://chrle1.github.io/data-processing/" target="_blank">Data Processing</a>
+            <a href="https://chrle1.github.io/dom-play/">Dom-play</a>
+            <a href="https://chrle1.github.io/seasonal-styles/">Seasonal Styles</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+
+        </nav>
+     </header>
+     
+   <main class="wrapper">
+        <picture class="profile">
+            <source media="(min-width: 1200px)" srcset="images/desktop.jpg">
+            <source media="(min-width: 501px)" srcset="images/tablet.jpg">
+            <img src="images/phone.jpg" alt="That's me!" />
+        </picture>   
+       <h2 class="subheader">About Me</h2>
+       <p>
+             Hi everyone, my name is Charlie. I'm here to talk to everyone about why I believe I have what it takes to succeed as an emerging professional in year up & in this industry. 
+             One reason I believe this is because of my past work experiences. Being in the customer service industry for nearly 10 years has made me accustomed to working solo or in a team, working in a fast paced environment, and the most important, working under pressure. 
+        </p>
+        <p>
+             Over the years, I have not only grown as a person but I have also developed many skills and work ethics. Some of these important skills I have developed are leadership, attention to details big or small, determination, problem solving, and innovation. 
+            When presented with the opportunity, I prefer to take leadership roles in my professional life. I feel that it is my duty to step up when others need help, I enjoy being able to lead others to achieve their goals. 
+        </p>
+        <p>
+            Leadership requires you to take feedback and critically listen to others, which I believe to be an important standard of any business. Listening to a team has helped me develop great problem solving skills. 
+            I like to make decisions that honor the greater good rather than just myself. I carry great determination in the tasks and projects that I do, and I rely on my innovative skills to help me carry out these goals. 
+            During the process, I make sure to pay special attention to details so that I maximize my time and do things right the first time. These are just some of the main strengths that continue to shape me into a professional in my craft to this day. 
+  
+        </p>
+       
+
+       
+     <footer>
+      <p><small>&copy; 2021 by 
+          CHARLIE KHOY, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </main>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
